@@ -1,0 +1,9 @@
+:root{
+    --fontc_red:#FF0000;
+    --fontc_white:#FFFFFF;
+    --backgc_black:#28272C;
+}
+
+header{
+    width: 100%;
+}
