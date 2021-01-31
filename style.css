@@ -241,10 +241,12 @@ main {
 }
 
 .service {
-    height: 100%;
+    height: 643px;
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: #28272C;
 }
 
@@ -256,11 +258,113 @@ main {
     align-items: center;
 }
 
+.service__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service__title{
+    font-family: var(--font_nunito);
+    color: var(--fontc_white);
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.service__title::before,
+.service__title::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 50px;
+    margin: 10px;
+    background-color: var(--fontc_red);
+}
+
+
 .service__img{
     width: 170px;
     height: 170px;
 }
 
 .service__img img{
+    width: 100%;
+}
+
+.service__photo__title{
+    font-family: var(--font_nunito);
+    font-size: 19px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 25px 0 15px 0;
+}
+
+.service__photo__description{
+    font-family: var(--font_open);
+    font-size: 14px;
+    color: #B2B2B2;
+    height: 79px;
+    display: block;
+    height: 80px;
+    width: 231px;
+    text-align: center;
+    margin: 5px;
+}
+
+.service__photo__a{
+    display: block;
+    font-family: var(--font_nunito);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: var(--fontc_white);
+    background-color: var(--fontc_red);
+    height: 40px;
+    width: 142px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 115px;
+}
+
+.form{
+    height: 619px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__title{
+    font-family: var(--font_nunito);
+    font-size: 19px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__title::before,
+.form__title::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 50px;
+    margin: 10px;
+    background-color: var(--fontc_red);
+}
+.form__img{
+    width: 444px;
+    height: 316px;
+}
+
+.form__img img{
     width: 100%;
 }
