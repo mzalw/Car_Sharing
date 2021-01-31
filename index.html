@@ -4,58 +4,69 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css"/>
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="style.css"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-<header>
-    <div class="container">
-        <a href=""></a>
-        <ul>
-            <li>Home</li>
-            <li>Blog</li>
-            <li>Service</li>
-            <li>Contact</li>
-        </ul>
+<div class="hero">
+    <header>
+        <div class="container__nav">
+            <a href="" class="logo"> <img class="logo__img" src="images/Icon%20Logo%20Normal.svg">
+                <span class="logo__car">Car</span> sharing</a>
+            <ul class="nav">
+                <li class="nav__item">Home</li>
+                <li class="nav__item">Blog</li>
+                <li class="nav__item">Service</li>
+                <li class="nav__item">Contact</li>
+            </ul>
+        </div>
+    </header>
+    <div class="container1__banner">
+        <div class="container__banner">
+            <h1>Car sharing</h1>
+            <span class="banner__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. architecto de lectus excepturi, laborios
+                am mollitia quasi tempora vel. consequatur doloremque earum expedita magni, minima nulla, numquam officiis pariatur placeat qua
+                si, similique voluptatem? </span>
+            <div class="container__btn">
+                <button class="banner__btn">share a car</button>
+                <button class="banner__btn2 sec">key features</button>
+            </div>
+        </div>
     </div>
-</header>
-
-<section>
-    <div class="container">
-        <h1>Car sharing</h1>
-        <span class="car__sharing__description">Lorem ipsum lalalala lalalalalala alalalalalalal</span>
-    </div>
-</section>
+</div>
 
 <main>
-    <div class="container">
-        <div class="blog__item">
-            <div class="blog__img">
-                <img src="images/photo1.png"
+    <div class="container__blog">
+        <p class="blog__title">Blog</p>
+        <div class="container__blog_items">
+            <div class="blog__item">
+                <div class="blog__img">
+                    <img src="images/photo1.png"
+                </div>
+                <p class="blog__photo__title">Lorem ipsum</p>
+                <span class="blog__photo__description">Lorem ipsum lalalala lalala lalala</span>
+                <a href class="blog__photo__a">read more</a>
             </div>
-            <p class="blog__photo__title">Lorem ipsum</p>
-            <span class="blog__photo__description">Lorem ipsum lalalala lalala lalala</span>
-            <a href class="blog__photo__a">read more</a>
-        </div>
-        <div class="blog__item">
-            <div class="blog__img">
-                <img src="images/photo2.png"
+            <div class="blog__item">
+                <div class="blog__img">
+                    <img src="images/photo2.png"
+                </div>
+                <p class="blog__photo__title">Lorem ipsum</p>
+                <span class="blog__photo__description">Lorem ipsum lalalala lalala lalala</span>
+                <a href="" class="blog__photo__a">Read more</a>
             </div>
-            <p class="blog__photo__title">Lorem ipsum</p>
-            <span class="blog__photo__description">Lorem ipsum lalalala lalala lalala</span>
-            <a href="" class="blog__photo__a">Read more</a>
-        </div>
-        <div class="blog__item">
-            <div class="blog__img">
-                <img src="images/photo3.png"
+            <div class="blog__item">
+                <div class="blog__img">
+                    <img src="images/photo3.png"
+                </div>
+                <p class="blog__photo__title">Lorem ipsum</p>
+                <span class="blog__photo__description">Lorem ipsum lalalala lalala lalala</span>
+                <a href="" class="blog__photo__a">Read more</a>
             </div>
-            <p class="blog__photo__title">Lorem ipsum</p>
-            <span class="blog__photo__description">Lorem ipsum lalalala lalala lalala</span>
-            <a href="" class="blog__photo__a">Read more</a>
         </div>
     </div>
 </main>
